@@ -8,6 +8,9 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
+  "engines": {
+    "node": "14.15.1"
+  },
   "author": "Austin File <austinfile510@gmail.com>",
   "license": "ISC",
   "dependencies": {
