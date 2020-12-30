@@ -45,12 +45,6 @@ app.get("/movie", function handleGetMovie(req, res) {
   res.json(response);
 });
 
-const PORT = process.env.PORT || 8000
-
-app.listen(PORT, () => {
-  console.log(`Server listening at http://localhost:${PORT}`);
-});
-
 app.use((error, req, res, next) => {
     let response
     if (process.env.NODE_ENV === 'production') {
